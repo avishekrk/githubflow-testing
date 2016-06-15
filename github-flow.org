@@ -199,6 +199,17 @@ Some differences:
 
 Don't code anything if there is not a need of doing it
 
+** A good issue
+
+- Clear
+- Defined output
+- Actionable
+- Could be completed at most in few days
+- Examples
+  - *Good*: /Fix the bug in .../
+  - *Good*: /Add a method that does .../
+  - *Bad*:  /Solve the dssg project/
+  - *Bad*:  /Some error happen/
 
 * About code reviewing
 
