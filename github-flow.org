@@ -233,11 +233,14 @@ Don't code anything if there is not a need of doing it
 * Practice makes the master
 
 - Goal: Simulate the creation of a pipeline
+- *You will work in your team repo*
 - Create a directory called: ~test~
 - The pipeline is composed for 3 steps:
   - They have a function called ~do_stuff()~ (no args)
   - This function prints on the screen ~I'm step X~, where ~X~ is the number of the step
 - There's a ~master.py~ that uses that 3 steps in order.
+- Create an issue for deleting the ~test~ directory
+- Delete it
 - Easy right?
 
 
