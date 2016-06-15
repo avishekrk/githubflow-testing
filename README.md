@@ -1,1 +1,3 @@
-# githubflow-testing
+# Github flow
+
+Some notes about github flow...

@@ -32,7 +32,6 @@
   wc $TANGLED
 #+end_src
 
-* [[./imagenes/DataDay-logo.png]]
 
 * Agenda
 
@@ -76,22 +75,23 @@
 
 ** My workspace
 
- #+begin_src sh
+#+begin_src sh :eval never
    # How my git configuration looks like?
    git config --list
- #+end_src
+#+end_src
 
 ** My workspace
 
  #+begin_src sh :eval never
-   # Adding some
+   # Adding some, if you don't have a user.name or user.email set
    git config --global user.name myusername
  #+end_src
 
 ** My workspace
 
  #+begin_src sh :eval never
-   # This is very important!!
+   ## This is very important!!
+   ## YOU NEED TO DO THIS
    git config --global push.default current
  #+end_src
 
@@ -99,7 +99,14 @@
 
 * Different ways of do things
 
-** Cowboy workflow
+** Different ways of do things
+
+- "Solo" workflow
+- Open source workflow
+- Git flow
+- Github flow
+
+** "Solo" workflow
 
 #+begin_src sh :eval never
   mkdir my_working_directory
@@ -116,7 +123,7 @@
 #+end_src
 
 
-** Cowboy workflow
+** "Solo" workflow
 
 - This works if you are working by yourself
   - This is not our case

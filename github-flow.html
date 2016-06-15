@@ -30,19 +30,13 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Github Flow</h1><h2 class="author">Adolfo De Unánue</h2><h2 class="date">Data Science for Social Good 2016</h2><p class="date">Created: 2016-06-14 mar 22:30</p>
+<section id="sec-title-slide"><h1 class="title">Github Flow</h1><h2 class="author">Adolfo De Unánue</h2><h2 class="date">Data Science for Social Good 2016</h2><p class="date">Created: 2016-06-15 mié 07:35</p>
 </section>
 
 
 <section>
 <section id="slide-orgheadline1">
-<h2 id="orgheadline1"><img src="./imagenes/DataDay-logo.png" alt="DataDay-logo.png" /></h2>
-
-</section>
-</section>
-<section>
-<section id="slide-orgheadline2">
-<h2 id="orgheadline2">Agenda</h2>
+<h2 id="orgheadline1">Agenda</h2>
 <ul>
 <li>Some thoughts about  life</li>
 
@@ -61,26 +55,26 @@
 </section>
 </section>
 <section>
-<section id="slide-orgheadline6">
-<h2 id="orgheadline6">Some thoughts about  life</h2>
-<div class="outline-text-2" id="text-orgheadline6">
+<section id="slide-orgheadline5">
+<h2 id="orgheadline5">Some thoughts about  life</h2>
+<div class="outline-text-2" id="text-orgheadline5">
 </div></section>
 </section>
 <section>
+<section id="slide-orgheadline2">
+<h3 id="orgheadline2">Git is a collaboration tool</h3>
+
+</section>
+</section>
+<section>
 <section id="slide-orgheadline3">
-<h3 id="orgheadline3">Git is a collaboration tool</h3>
+<h3 id="orgheadline3">Git is a communication tool</h3>
 
 </section>
 </section>
 <section>
 <section id="slide-orgheadline4">
-<h3 id="orgheadline4">Git is a communication tool</h3>
-
-</section>
-</section>
-<section>
-<section id="slide-orgheadline5">
-<h3 id="orgheadline5">The first golden Rule</h3>
+<h3 id="orgheadline4">The first golden Rule</h3>
 <ul>
 <li>You are a team, work as a team</li>
 
@@ -93,8 +87,8 @@
 </section>
 </section>
 <section>
-<section id="slide-orgheadline10">
-<h2 id="orgheadline10">First things first</h2>
+<section id="slide-orgheadline9">
+<h2 id="orgheadline9">First things first</h2>
 <ul>
 <li>Open a terminal &#x2026;</li>
 
@@ -111,8 +105,8 @@
 </section>
 </section>
 <section>
-<section id="slide-orgheadline7">
-<h3 id="orgheadline7">My workspace</h3>
+<section id="slide-orgheadline6">
+<h3 id="orgheadline6">My workspace</h3>
 <div class="org-src-container">
 
 <pre><code class="sh"># How my git configuration looks like?
@@ -120,30 +114,17 @@ git config --list
 </code></pre>
 </div>
 
-<pre class="example">
-user.name=Adolfo De Unánue
-user.mail=nanounanue@gmail.com
-user.email=nanounanue@gmail.com
-core.editor=emacs
-core.whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
-core.excludesfile=~/.gitignore
-web.browser=firefox
-color.ui=auto
-color.branch.current=yellow bold
-color.branch.local=green bold
-color.branch.remote=cyan bold
-color.diff.meta=yellow bold
-color.diff.frag=magenta bold
-color.diff.old=red bold
-color.diff.new=green bold
-color.diff.whitespace=red reverse
-color.status.added=green bold
-color.status.changed=yellow bold
-color.status.untracked=red bold
-diff.tool=meld
-github.user=nanounanue
-push.default=current
-</pre>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline7">
+<h3 id="orgheadline7">My workspace</h3>
+<div class="org-src-container">
+
+<pre><code class="sh"># Adding some, if you don't have a user.name or user.email set
+git config --global user.name myusername
+</code></pre>
+</div>
 
 </section>
 </section>
@@ -152,19 +133,8 @@ push.default=current
 <h3 id="orgheadline8">My workspace</h3>
 <div class="org-src-container">
 
-<pre><code class="sh"># Adding some
-git config --global user.name myusername
-</code></pre>
-</div>
-
-</section>
-</section>
-<section>
-<section id="slide-orgheadline9">
-<h3 id="orgheadline9">My workspace</h3>
-<div class="org-src-container">
-
-<pre><code class="sh"># This is very important!!
+<pre><code class="sh">## This is very important!!
+## YOU NEED TO DO THIS
 git config --global push.default current
 </code></pre>
 </div>
@@ -180,8 +150,21 @@ git config --global push.default current
 </div></section>
 </section>
 <section>
+<section id="slide-orgheadline10">
+<h3 id="orgheadline10">Different ways of do things</h3>
+<ul>
+<li>"Solo" workflow</li>
+<li>Open source workflow</li>
+<li>Git flow</li>
+<li>Github flow</li>
+
+</ul>
+
+</section>
+</section>
+<section>
 <section id="slide-orgheadline11">
-<h3 id="orgheadline11">Cowboy workflow</h3>
+<h3 id="orgheadline11">"Solo" workflow</h3>
 <div class="org-src-container">
 
 <pre><code class="sh">mkdir my_working_directory
@@ -203,7 +186,7 @@ git commit -m "Working with some awesome idea"
 </section>
 <section>
 <section id="slide-orgheadline12">
-<h3 id="orgheadline12">Cowboy workflow</h3>
+<h3 id="orgheadline12">"Solo" workflow</h3>
 <ul>
 <li>This works if you are working by yourself
 <ul>
