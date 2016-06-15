@@ -197,7 +197,7 @@ Some differences:
 
 ** The second golden rule
 
-You don't code anything if there is not a need of doing it
+Don't code anything if there is not a need of doing it
 
 
 * About code reviewing
@@ -218,8 +218,7 @@ You don't code anything if there is not a need of doing it
   ## hack, hack, hack, add/rm, commit
   ## Push to the repo and create a remote branch
   git push
-  ## Create a pull-request and describe your work
-  ## Suggest/add a reviewer
+  ## Create a pull-request and describe your work (Suggest/add a reviewer)
   ## Code review
   ## The pull-request is closed and the remote branch is destroyed
   ## Switch to master locally
@@ -237,6 +236,11 @@ You don't code anything if there is not a need of doing it
 - Create a directory called: ~test~
 - The pipeline is composed for 3 steps:
   - They have a function called ~do_stuff()~ (no args)
-  - This function prints on the screen ~I'm step X~,
+  - This function prints on the screen ~I'm step X~, where ~X~ is the number of the step
 - There's a ~master.py~ that uses that 3 steps in order.
 - Easy right?
+
+
+* Q & A
+
+* Thank you!
